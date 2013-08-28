@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Analects.Extensions</id>
+    <version>1.0.0</version>
+    <title>Analects.Extensions</title>
+    <authors>distantcam</authors>
+    <owners>distantcam</owners>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Various useful extension methods.</description>
+    <tags>LINQ Extensions</tags>
+  </metadata>
+  <files>
+    <file src="CollectionExtensions.cs" target="content\analects\extensions\" />
+    <file src="EnumerableExtensions.cs" target="content\analects\extensions\" />
+  </files>
+</package>
